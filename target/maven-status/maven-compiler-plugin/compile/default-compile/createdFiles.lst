@@ -1,0 +1,5 @@
+com\mkyong\rest\JSONService.class
+com\mkyong\rest\client\ApacheHttpClientGetChu.class
+com\mkyong\rest\client\ApacheHttpClientGet.class
+com\mkyong\rest\Product.class
+com\mkyong\rest\client\ApacheHttpClientPost.class
