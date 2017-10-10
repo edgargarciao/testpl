@@ -1,8 +1,4 @@
-package com.crunchify.restjersey;
-
-/**
- * @author Crunchify.com
- */
+package com.openintl.controller;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -17,10 +13,9 @@ public class CtoFService {
 
     Double fahrenheit;
     Double celsius = 36.8;
-    fahrenheit = ((celsius * 9) / 5) + 38;
+    fahrenheit = ((celsius * 9) / 5) + 32;
 
-    String result = "--> " + fahrenheit;
-    return result;
+    return "-->" + fahrenheit;
   }
 
   @Path("{c}")
